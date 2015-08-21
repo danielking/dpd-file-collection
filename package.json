@@ -1,0 +1,23 @@
+{
+  "name": "dpd-file-collection",
+  "version": "0.0.1",
+  "description": "File Collection Module for Deployd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielking/dpd-file-collection.git"
+  },
+  "keywords": [
+    "dpd",
+    "file"
+  ],
+  "author": "Daniel King <cnkknd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielking/dpd-file-collection/issues"
+  },
+  "homepage": "https://github.com/danielking/dpd-file-collection#readme"
+}
