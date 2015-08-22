@@ -32,7 +32,7 @@ FileCollection.prototype.handle = function(ctx) {
 	var self = this;
 	if(ctx.method == 'GET' && id && ctx.query.hasOwnProperty('file')) {
 		self.store.find({id: id}, function(err, item) {
-			if(err) {
+			if(err || !item) {
 				ctx.done(404);
 			} else {
 				ctx.res.setHeader('Content-Type', item.type);
